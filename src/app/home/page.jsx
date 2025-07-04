@@ -1,5 +1,7 @@
 import { SlCalender } from "react-icons/sl";
-
+import { FaMapPin } from "react-icons/fa";
+import { IoWallet } from "react-icons/io5";
+import Button from "@/components/button";
 export default function Page() {
   return (
     <main>
@@ -90,6 +92,157 @@ export default function Page() {
               <p className="">Putri kedua dari</p>
               <p className="">Bapak Daniella Putranto & Ibu Eka Yuni</p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="w-full min-h-[100vh] border bg-orange-100 text-black p-3">
+        <div className="w-full h-max flex items-center justify-between mt-3">
+          <span className="border  w-[45%] inline-block "></span>
+          <h1 className="text-[1.7rem] parastoo text-amber-900">
+            OUR LOVE STORY
+          </h1>
+        </div>
+        <div className="mt-5">
+          <div className="w-[80%] h-[330px] m-auto border-2 border-amber-950 rounded-tl-full rounded-tr-full p-1 ">
+            <div className="w-full h-full m-auto border-2 border-orange-800 rounded-tl-full rounded-tr-full p-2 bg-[url('/pw5.jpeg')] bg-cover bg-[center_20%] bg-no-repeat"></div>
+          </div>
+        </div>
+        <div className="w-full h-max m-auto mt-6 text-center flex flex-col gap-2">
+          <h1 className="text-[1.7rem] parastoo text-amber-900">
+            JANUARI - 2019
+          </h1>
+          <p className="text-[.8rem] text-gray-500">
+            Kami pertama kali bertemu di acara kampus. Meski singkat, pertemuan
+            itu menjadi awal kedekatan kami yang terus tumbuh seiring waktu.
+          </p>
+          <h1 className="text-[1.7rem] parastoo text-amber-900">
+            APRIL – 2022
+          </h1>
+          <p className="text-[.8rem] text-gray-500">
+            Kami mulai berpacaran dan membangun hubungan yang kuat. Saling
+            mendukung, kami tumbuh bersama melewati berbagai tantangan.
+          </p>
+          <h1 className="text-[1.7rem] parastoo text-amber-900">
+            MARET - 2025
+          </h1>
+          <p className="text-[.8rem] text-gray-500">
+            Kami memutuskan untuk menikah. Dengan cinta dan keyakinan, kami siap
+            melangkah ke masa depan bersama, saling menguatkan dalam setiap
+            langkah.
+          </p>
+        </div>
+      </section>
+      <section className="w-full min-h-[100vh] bg-[url('/pw4.jpeg')] bg-cover bg-center bg-no-repeat py-3 px-2 flex justify-center items-center">
+        <div className="w-full h-max border-2 border-neutral-300 p-1 rounded-xl">
+          <div className="w-full h-max  border-2 border-neutral-300 p-1 rounded-xl bg-[#e4dac7d0]  py-8 text-center flex flex-col justify-center items-center gap-2">
+            <h1 className="text-[1.7rem] parastoo text-orange-950">
+              - JADWAL PERNIKAHAN -
+            </h1>
+            <div className="w-[90%] m-auto h-max pb-3 border-b-2 border-neutral-900 text-center">
+              <h1 className="text-[1.3rem] cinzel-bold text-orange-950">
+                AKAD NIKAH
+              </h1>
+              <div className="mt-3 ">
+                <p className="capitalize text-orange-950">
+                  Sabtu, 12 Juli 2025
+                </p>
+                <p className="text-orange-950">08.00 - 11.00 WIB</p>
+                <p className="text-orange-950 parastoo text-[1.2rem] uppercase">
+                  MASJID RAYA ACEH SEPAKAT
+                </p>
+                <p className="text-[.8rem] text-gray-600">
+                  Jl Petisah Tengah, Kec. Medan Petisah, Kota Medan
+                </p>
+              </div>
+            </div>
+            <div className="w-[90%] m-auto h-max pb-3 border-t-2 border-neutral-900 text-center">
+              <h1 className="text-[1.3rem] cinzel-bold text-orange-950 mt-3">
+                RESEPSI
+              </h1>
+              <div className="mt-3 ">
+                <p className="capitalize text-orange-950">
+                  Minggu, 13 Juli 2025
+                </p>
+                <p className="text-orange-950">10.00 - 22.00 WIB</p>
+                <p className="text-orange-950 parastoo text-[1.2rem] uppercase">
+                  Grand Central Premier Hotel
+                </p>
+                <p className="text-[.8rem] text-gray-600">
+                  Jl. Putri Merak Jingga No.3A, Kesawan, Kec. Medan Baru, Kota
+                  Medan
+                </p>
+                <div className="w-full h-max flex justify-center items-center gap-3 flex-col mt-2 mb-4">
+                  <a
+                    href="https://maps.app.goo.gl/Ldhq9s3jswjnY3X1A"
+                    target="_blank"
+                  >
+                    <Button
+                      icons={<SlCalender size={15} />}
+                      teks={
+                        <p className="text-white text-[.8rem]">
+                          Lokasi Resepsi
+                        </p>
+                      }
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="w-full min-h-[100vh] bg-[url('/bg-1.jpeg')] bg-cover bg-center bg-no-repeat flex">
+        <div className="w-[40%] h-[100vh] flex justify-center text-center items-center flex-col  p-2">
+          <h1 className="text-[1.7rem] parastoo text-red-900">Our Gallery</h1>
+          <p className="text-black text-[.7rem]">
+            "Dalam pelukanmu, aku menemukan rumahku yang sejuk".
+          </p>
+          <p className="text-black text-[.8rem] satisfy mt-2">
+            - Husni & Indah -
+          </p>
+        </div>
+        <div className="w-[60%] h-[100vh]   p-2">
+          <div className="flex flex-col justify-center items-center gap-2">
+            <img
+              src="/pw2.jpeg"
+              alt="Gambar 1"
+              className="w-30 h-46 object-cover rounded-2xl shadow-xl rotate-3"
+            />
+
+            <img
+              src="/pw3.jpeg"
+              alt="Gambar 2"
+              className="w-30 h-46 object-cover rounded-2xl shadow-xl -rotate-6"
+            />
+
+            <img
+              src="/pw5.jpeg"
+              alt="Gambar 3"
+              className="w-30 h-46 object-cover rounded-2xl shadow-xl rotate-12"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="w-full h-[80vh] bg-orange-100 py-7 px-3">
+        <div className="w-full h-full border border-orange-950 rounded-xl p-1">
+          <div className="w-full h-full border border-orange-950 rounded-xl bg-amber-50 flex flex-col justify-center items-center px-3">
+            <img
+              src="/pw4.jpeg"
+              alt="image"
+              className="w-56 h-60 object-cover rounded-2xl shadow-xl"
+            />
+            <h1 className="text-orange-950 text-[1.5rem] parastoo mt-2">
+              - WEDDING GIFT -
+            </h1>
+            <p className="text-gray-600 text-[.7rem] text-center">
+              Kehadiran anda merupakan hadiah terindah, Namun apabila hendak
+              memberikan tanda kasih kepada kami, dapat melalui fitur dibawah
+              ini
+            </p>
+            <Button
+              icons={<IoWallet className="text-white" size={13} />}
+              teks="Amplop Digital"
+            />
           </div>
         </div>
       </section>
