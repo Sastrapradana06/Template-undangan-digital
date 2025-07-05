@@ -20,6 +20,9 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Husni & Indah",
+  icons: {
+    icon: "/favicon.ico",
+  },
   description:
     "Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Anda untuk hadir dalam pernikahan kami pada Jumat, 4 Juli 2025.",
   keywords: [
@@ -39,7 +42,7 @@ export const metadata = {
     siteName: "Husni & Indah Wedding",
     images: [
       {
-        url: "https://husni-indah.vercel.app/pw7.jpeg", // Gambar undangan ukuran 1200x630
+        url: "https://husniandindah.vercel.app/pw7.jpeg", // Gambar undangan ukuran 1200x630
         width: 1200,
         height: 630,
         alt: "Undangan Pernikahan Husni & Indah",
