@@ -34,12 +34,12 @@ export const metadata = {
   openGraph: {
     title: "Undangan Pernikahan Husni & Indah",
     description:
-      "Jumat, 4 Juli 2025 - Klik untuk melihat undangan pernikahan kami.",
+      "Jumat, 13 Juli 2025 - Klik untuk melihat undangan pernikahan kami.",
     url: "https://husni-indah.vercel.app",
     siteName: "Husni & Indah Wedding",
     images: [
       {
-        url: "https://husni-indah.vercel.app/bg-home.jpeg", // Gambar undangan ukuran 1200x630
+        url: "https://husni-indah.vercel.app/pw7.jpeg", // Gambar undangan ukuran 1200x630
         width: 1200,
         height: 630,
         alt: "Undangan Pernikahan Husni & Indah",

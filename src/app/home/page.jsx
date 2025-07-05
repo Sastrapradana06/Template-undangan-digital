@@ -2,7 +2,47 @@ import { SlCalender } from "react-icons/sl";
 import { FaMapPin } from "react-icons/fa";
 import { IoWallet } from "react-icons/io5";
 import Button from "@/components/button";
+import { IoIosSend } from "react-icons/io";
 export default function Page() {
+  const comments = [
+    {
+      name: "Ahmad",
+      text: "Selamat menempuh hidup baru Husni & Indah! Semoga bahagia selalu.",
+    },
+    {
+      name: "Rina",
+      text: "Barakallah! Semoga pernikahan kalian penuh cinta dan keberkahan.",
+    },
+    {
+      name: "Dewi",
+      text: "Selamat menikah Husni & Indah! Semoga langgeng dan harmonis sampai jannah.",
+    },
+    {
+      name: "Budi",
+      text: "Semoga menjadi keluarga yang sakinah, mawaddah, warahmah. Aamiin.",
+    },
+    {
+      name: "Fitri",
+      text: "Ikut berbahagia! Semoga cinta dan kasih sayang kalian selalu tumbuh.",
+    },
+    {
+      name: "Joko",
+      text: "Selamat untuk Husni & Indah! Semoga selalu diberikan keberkahan dan kebahagiaan.",
+    },
+    {
+      name: "Sari",
+      text: "Selamat menempuh hidup baru! Bahagia selalu dan semoga dilimpahi rezeki yang berkah.",
+    },
+    {
+      name: "Yusuf",
+      text: "Barakallahulakuma Husni & Indah. Semoga selalu bersama dalam suka dan duka.",
+    },
+    {
+      name: "Lina",
+      text: "Semoga perjalanan cinta kalian selalu dipenuhi kebahagiaan dan keberkahan.",
+    },
+  ];
+
   return (
     <main>
       <section className="w-full min-h-[100vh]  bg-[url('/pw7.jpeg')] bg-cover bg-center bg-no-repeat flex justify-center items-center flex-col gap-3">
@@ -244,6 +284,90 @@ export default function Page() {
               teks="Amplop Digital"
             />
           </div>
+        </div>
+      </section>
+      <section className="w-full h-max bg-[url('/bg-1.jpeg')] bg-cover bg-center bg-no-repeat py-5 px-3 ">
+        <h1 className="text-[1.7rem] parastoo text-red-900 text-center">
+          - SEND YOU WISHES -
+        </h1>
+        <p className="text-gray-600 text-[.7rem] text-center mt-2">
+          Kepada Bapak/Ibu/Saudara/i yang ingin memberikan doa untuk kami dapat
+          dituliskan dibawah ini:{" "}
+        </p>
+        <form
+          action=""
+          className="w-full h-max rounded-xl border-2 border-orange-900 mt-4 bg-amber-50  py-5 px-4"
+        >
+          <div className="w-max flex flex-col ">
+            <label
+              htmlFor="nama"
+              className="text-black text-[.8rem] capitalize"
+            >
+              Nama tamu:
+            </label>
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              placeholder="Masukkan Nama"
+              className="w-full h-8 rounded-md border border-orange-900 mt-2 py-1 px-2 text-black bg-white"
+            />
+          </div>
+          <div className="w-max flex flex-col mt-4">
+            <label
+              htmlFor="ucapan"
+              className="text-black text-[.8rem] capitalize"
+            >
+              Ucapan & Doa:
+            </label>
+            <textarea
+              name="ucapan"
+              id="ucapan"
+              cols="30"
+              rows="10"
+              placeholder="Masukkan Ucapan & Doa"
+              className="w-[330px] h-28 rounded-md border border-orange-900 mt-2 py-1 px-2 text-black bg-white"
+            ></textarea>
+          </div>
+          <Button
+            icons={<IoIosSend className="text-white" size={13} />}
+            teks="Kirim"
+            type="submit"
+          />
+        </form>
+        <div className="w-96 max-w-full h-64  rounded-2xl shadow-lg p-4 bg-amber-50 overflow-y-auto space-y-4 mt-5 border-2 border-orange-900">
+          {comments.map((comment, index) => (
+            <div key={index} className="border-b pb-2 last:border-none">
+              <p className="font-semibold text-gray-800">~ {comment.name}</p>
+              <p className="text-gray-600 text-[.8rem]">{comment.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section className="w-full h-[100vh] bg-[url('/pw8.jpeg')] bg-cover bg-center bg-no-repeat relative">
+        <div className="w-full h-[250px] absolute bottom-0 left-0  z-50 text-center px-3">
+          <p className="text-orange-100 text-[.8rem] mt-2">
+            Menjadi sebuah kebehagiaan bagi kami apabila Bapak/Ibu/Saudara/i
+            berkenan hadir dalam hari bahagia kami. Terimah kasih atas segala
+            ucapan, doa, dan perhartian yang diberikan.
+          </p>
+          <p className="text-orange-100 text-[.8rem]">
+            Sampai jumpa di acara pernikahan kami
+          </p>
+          <h1 className="text-white text-[1.7rem] cinzel-bold mt-3">
+            Husni & Indah
+          </h1>
+          <p className="text-white text-[.7rem]">beserta keluarga</p>
+          <p className="text-white text-[.7rem] mt-10">
+            All right reserved by{" "}
+            <a
+              href="https://klima-tech.vercel.app/"
+              target="_blank"
+              className="text-sky-400"
+            >
+              klimatech
+            </a>
+          </p>
         </div>
       </section>
     </main>
