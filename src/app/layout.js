@@ -20,29 +20,29 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Husni & Indah",
+  description:
+    "Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Anda untuk hadir dalam pernikahan kami pada Jumat, 4 Juli 2025.",
   icons: {
     icon: "/favicon.ico",
   },
-  description:
-    "Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Anda untuk hadir dalam pernikahan kami pada Jumat, 4 Juli 2025.",
   keywords: [
     "Undangan Pernikahan",
     "Husni dan Indah",
     "Wedding Invitation",
     "Nikah 2025",
   ],
-  authors: [{ name: "Husni & Indah", url: "https://husni-indah.vercel.app" }],
+  authors: [{ name: "Husni & Indah", url: "https://husniandindah.vercel.app" }],
   creator: "Husni & Indah",
   themeColor: "#ffffff",
   openGraph: {
     title: "Undangan Pernikahan Husni & Indah",
     description:
       "Jumat, 13 Juli 2025 - Klik untuk melihat undangan pernikahan kami.",
-    url: "https://husni-indah.vercel.app",
+    url: "https://husniandindah.vercel.app",
     siteName: "Husni & Indah Wedding",
     images: [
       {
-        url: "https://husniandindah.vercel.app/pw7.jpeg", // Gambar undangan ukuran 1200x630
+        url: "https://husniandindah.vercel.app/pw7-resized.jpeg", // ✅ Gambar baru
         width: 1200,
         height: 630,
         alt: "Undangan Pernikahan Husni & Indah",

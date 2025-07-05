@@ -54,7 +54,7 @@ export default function Page() {
             Husni & Indah
           </h1>
         </div>
-        <div className="w-[90%] h-[120px] border rounded-[20px] flex flex-col justify-center items-center gap-3 bg-gray-800 text-[.9rem]">
+        <div className="w-[90%] h-[120px] border rounded-[20px] flex flex-col justify-center items-center gap-3 bg-gray-800 text-[.9rem] text-white">
           <p className="text-[1.2rem] dancing">Menuju Hari Bahagia</p>
           <div className="flex justify-center items-center gap-6 text-[.8rem]">
             <div className="flex flex-col justify-center items-center">
@@ -138,7 +138,7 @@ export default function Page() {
       <section className="w-full min-h-[100vh] border bg-orange-100 text-black p-3">
         <div className="w-full h-max flex items-center justify-between mt-3">
           <span className="border  w-[45%] inline-block "></span>
-          <h1 className="text-[1.7rem] parastoo text-amber-900">
+          <h1 className="text-[1.7rem] playfair text-amber-900">
             OUR LOVE STORY
           </h1>
         </div>
@@ -148,21 +148,21 @@ export default function Page() {
           </div>
         </div>
         <div className="w-full h-max m-auto mt-6 text-center flex flex-col gap-2">
-          <h1 className="text-[1.7rem] parastoo text-amber-900">
+          <h1 className="text-[1.7rem] playfair text-amber-900">
             JANUARI - 2019
           </h1>
           <p className="text-[.8rem] text-gray-500">
             Kami pertama kali bertemu di acara kampus. Meski singkat, pertemuan
             itu menjadi awal kedekatan kami yang terus tumbuh seiring waktu.
           </p>
-          <h1 className="text-[1.7rem] parastoo text-amber-900">
+          <h1 className="text-[1.7rem] playfair text-amber-900">
             APRIL – 2022
           </h1>
           <p className="text-[.8rem] text-gray-500">
             Kami mulai berpacaran dan membangun hubungan yang kuat. Saling
             mendukung, kami tumbuh bersama melewati berbagai tantangan.
           </p>
-          <h1 className="text-[1.7rem] parastoo text-amber-900">
+          <h1 className="text-[1.7rem] playfair text-amber-900">
             MARET - 2025
           </h1>
           <p className="text-[.8rem] text-gray-500">
@@ -175,7 +175,7 @@ export default function Page() {
       <section className="w-full min-h-[100vh] bg-[url('/pw4.jpeg')] bg-cover bg-center bg-no-repeat py-3 px-2 flex justify-center items-center">
         <div className="w-full h-max border-2 border-neutral-300 p-1 rounded-xl">
           <div className="w-full h-max  border-2 border-neutral-300 p-1 rounded-xl bg-[#e4dac7d0]  py-8 text-center flex flex-col justify-center items-center gap-2">
-            <h1 className="text-[1.7rem] parastoo text-orange-950">
+            <h1 className="text-[1.7rem] playfair text-orange-950">
               - JADWAL PERNIKAHAN -
             </h1>
             <div className="w-[90%] m-auto h-max pb-3 border-b-2 border-neutral-900 text-center">
@@ -187,7 +187,7 @@ export default function Page() {
                   Sabtu, 12 Juli 2025
                 </p>
                 <p className="text-orange-950">08.00 - 11.00 WIB</p>
-                <p className="text-orange-950 parastoo text-[1.2rem] uppercase">
+                <p className="text-orange-950 playfair text-[1.2rem] uppercase">
                   MASJID RAYA ACEH SEPAKAT
                 </p>
                 <p className="text-[.8rem] text-gray-600">
@@ -204,7 +204,7 @@ export default function Page() {
                   Minggu, 13 Juli 2025
                 </p>
                 <p className="text-orange-950">10.00 - 22.00 WIB</p>
-                <p className="text-orange-950 parastoo text-[1.2rem] uppercase">
+                <p className="text-orange-950 playfair text-[1.2rem] uppercase">
                   Grand Central Premier Hotel
                 </p>
                 <p className="text-[.8rem] text-gray-600">
@@ -233,7 +233,7 @@ export default function Page() {
       </section>
       <section className="w-full min-h-[100vh] bg-[url('/bg-1.jpeg')] bg-cover bg-center bg-no-repeat flex">
         <div className="w-[40%] h-[100vh] flex justify-center text-center items-center flex-col  p-2">
-          <h1 className="text-[1.7rem] parastoo text-red-900">Our Gallery</h1>
+          <h1 className="text-[1.7rem] playfair text-red-900">Our Gallery</h1>
           <p className="text-black text-[.7rem]">
             "Dalam pelukanmu, aku menemukan rumahku yang sejuk".
           </p>
@@ -271,7 +271,7 @@ export default function Page() {
               alt="image"
               className="w-56 h-60 object-cover rounded-2xl shadow-xl"
             />
-            <h1 className="text-orange-950 text-[1.5rem] parastoo mt-2">
+            <h1 className="text-orange-950 text-[1.5rem] playfair mt-2">
               - WEDDING GIFT -
             </h1>
             <p className="text-gray-600 text-[.7rem] text-center">
@@ -287,7 +287,7 @@ export default function Page() {
         </div>
       </section>
       <section className="w-full h-max bg-[url('/bg-1.jpeg')] bg-cover bg-center bg-no-repeat py-5 px-3 ">
-        <h1 className="text-[1.7rem] parastoo text-red-900 text-center">
+        <h1 className="text-[1.7rem] playfair text-red-900 text-center">
           - SEND YOU WISHES -
         </h1>
         <p className="text-gray-600 text-[.7rem] text-center mt-2">
